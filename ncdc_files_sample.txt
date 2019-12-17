@@ -1,0 +1,2 @@
+s3://ncdc-dataset-all/1901.tar.bz2
+s3://ncdc-dataset-all/1902.tar.bz2
