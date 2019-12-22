@@ -14,7 +14,7 @@ while IFS= read -r s3file; do
     # retrieve file from the local disk
     # echo "reporter:status:retrieving $s3file" >&2
     # --> $HADOOP_HOME/bin/hadoop fs -get $S3file $directoryBase
-    # un-zip and un-tar the local file
+    # un-bzip and un-tar the local file
     target=`basename $s3file .tar.bz2`
     mkdir -p $directoryBase$target
     echo "reporter:status:un-taring $s3file to $target" >&2    
